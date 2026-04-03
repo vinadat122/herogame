@@ -1,4 +1,4 @@
-package herogame.entity;
+package com.herogame.entity;
 
 public class National {
     private int nationalId;

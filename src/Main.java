@@ -7,8 +7,8 @@ public class Main {
         PlayerDao dao = new PlayerDao();
 
 
-        dao.addPlayer(new Player(10, 10, "Dat", 999, 5));
-        dao.addPlayer(new Player(20, 20, "An", 500, 3));
+        dao.addPlayer(new Player(10, 1, "Dat", 999, 5));
+        dao.addPlayer(new Player(20, 1, "An", 500, 3));
 
         System.out.println("=== ALL PLAYERS ===");
         for (String p : dao.getAllPlayers()) {
